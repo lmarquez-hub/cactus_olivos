@@ -6,12 +6,14 @@
 
 /* Header */
 
+
 .logo {
     height: 50px;
     border: solid;
     border-radius: 5px;
     border-color: green;
 }
+
 
 nav a {
     font-weight: bold;
@@ -24,6 +26,30 @@ nav a {
 
 main {
     font-family: 'Chicle', cursive;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+h4 {
+    letter-spacing: 1px;
+}
+
+h5 {
+    letter-spacing: 2px;
+}
+
+h6 {
+    letter-spacing: 1px;
+}
+
+p {
+    letter-spacing: 1px;
 }
 
 
@@ -76,11 +102,11 @@ a {
 }
 
 
-
 .galeria {
     padding: 30px 10px 30px 10px;
     border: solid;
-    margin: 20px 20px 20px 20px;
+    margin: 40px 20px 20px 20px;
+    background-color: rgb(226, 233, 213);
 }
 
 @media screen and (max-width: 992px) {
@@ -122,7 +148,7 @@ a {
 
 .escribinos{
     text-align: center;
-    padding: 20px 0 0 0px;
+    padding: 20px 0 20px 0px;
 }
 
 .podesPagar{
@@ -146,14 +172,12 @@ svg {
 
 .divFooter {
     display: inline-block;
-    padding: 20px 5%;
+    padding: 20px 3%;
 }
 
 .tituloFooter {
     margin-left: 20px;
 }
-
-
 
 
 .svgWapp {
@@ -191,11 +215,15 @@ svg {
 
 /* Contacto */
 
+.mainContactos {
+    background-color: #d8f1d7;
+}
+
+
 .contactanos {
     text-align: center;
     margin: 20px 0 20px 0;
 }
-
 
 
 .divIframe {
